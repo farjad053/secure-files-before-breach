@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Secure File before breach</title>
+        <!-- https://electronjs.org/docs/tutorial
+                            /security#csp-meta-tag -->
+        <meta http-equiv="Content-Security-Policy"
+            content="script-src 'self' 'unsafe-inline';" />
+    </head>
+    <body>
+        <div class="row">
+            <div>
+                <h3 id="error"></h3>
+            </div>
+            <div class="col-6">
+                <h3>Select File to Secure</h3>
+                <button id="upload">Select File to Secure</button>
+            </div>
+            <div class="col-6">
+                <h3>Select File to Open</h3>
+                <button id="open-file">Select File to Open</button>
+            </div>
+            <div class="col-6">
+                <h3>Retrieve Original File</h3>
+                <button id="retrieve-file">Select File to Retrieve</button>
+            </div>
+        </div>
+        <!-- Adding Individual Renderer Process JS File -->
+    </body>
+    <script src="renderer.js"></script>
+</html>
