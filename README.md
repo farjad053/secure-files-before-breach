@@ -2,10 +2,11 @@
 This project is made for securing files in system with machine UUID.
 
 ## How to run this project : 
-
-To run this project following prerequisites and commands are used:
+run.bat installs package and run the project.
+To run this project manually following prerequisites and commands are used:
 
 ### Prerequisite
+Download Nodejs from https://nodejs.org/en/download/
     Node.js : v18.13.0
 
 ### Commands
